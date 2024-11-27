@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Nov 27 21:46:01 2024
+# Process ID: 11708
+# Current directory: C:/Users/ZiadGaballah/Downloads/Pong_Game/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1
+# Command line: vivado.exe -log pong_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pong_top.tcl
+# Log file: C:/Users/ZiadGaballah/Downloads/Pong_Game/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/pong_top.vds
+# Journal file: C:/Users/ZiadGaballah/Downloads/Pong_Game/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1\vivado.jou
+# Running On: CSE-P07-2168-47, OS: Windows, CPU Frequency: 3696 MHz, CPU Physical cores: 8, Host memory: 34020 MB
+#-----------------------------------------------------------
+source pong_top.tcl -notrace

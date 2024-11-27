@@ -1,0 +1,91 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Wed Nov 27 21:47:22 2024
+| Host         : CSE-P07-2168-47 running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file pong_top_control_sets_placed.rpt
+| Design       : pong_top
+| Device       : xc7a35t
+-------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    13 |
+|    Minimum number of control sets                        |    13 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    60 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    13 |
+| >= 0 to < 4        |     2 |
+| >= 4 to < 6        |     3 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     4 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     2 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |              40 |           24 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              84 |           31 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+---------------------------------------------+------------------+------------------+----------------+--------------+
+|  Clock Signal  |                Enable Signal                | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+---------------------------------------------+------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG | nes/down_next                               | reset_IBUF       |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | nes/up_next                                 | reset_IBUF       |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG | counter_unit/r_dig1[3]_i_1_n_0              | reset_IBUF       |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | nes/FSM_sequential_state_reg[3]_i_1_n_0     | reset_IBUF       |                2 |              4 |         2.00 |
+|  clk_IBUF_BUFG | graph_unit/E[0]                             | reset_IBUF       |                1 |              4 |         4.00 |
+|  clk_IBUF_BUFG | timer_unit/timer_reg[6]_i_1_n_0             | reset_IBUF       |                3 |              7 |         2.33 |
+|  vga_unit/E[0] |                                             | reset_IBUF       |                6 |             10 |         1.67 |
+|  vga_unit/E[0] | vga_unit/v_count_next_1                     | reset_IBUF       |                5 |             10 |         2.00 |
+|  clk_IBUF_BUFG | graph_unit/y_pad_next                       | reset_IBUF       |                4 |             10 |         2.50 |
+|  clk_IBUF_BUFG | nes/count_next                              | reset_IBUF       |                3 |             11 |         3.67 |
+|  clk_IBUF_BUFG | vga_unit/E[0]                               | reset_IBUF       |                3 |             12 |         4.00 |
+|  clk_IBUF_BUFG | vga_unit/FSM_sequential_state_reg_reg[1][0] | reset_IBUF       |                7 |             20 |         2.86 |
+|  clk_IBUF_BUFG |                                             | reset_IBUF       |               18 |             30 |         1.67 |
++----------------+---------------------------------------------+------------------+------------------+----------------+--------------+
+
+
