@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Dec  1 23:30:14 2024
+# Process ID: 19360
+# Current directory: C:/Users/Ziadgaballah/Downloads/PongDD1-main/PONG SEMIFINAL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18464 C:\Users\Ziadgaballah\Downloads\PongDD1-main\PONG SEMIFINAL\PONG SEMIFINAL.xpr
+# Log file: C:/Users/Ziadgaballah/Downloads/PongDD1-main/PONG SEMIFINAL/vivado.log
+# Journal file: C:/Users/Ziadgaballah/Downloads/PongDD1-main/PONG SEMIFINAL\vivado.jou
+# Running On: CSE-P07-2168-2, OS: Windows, CPU Frequency: 3696 MHz, CPU Physical cores: 8, Host memory: 34020 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Ziadgaballah/Downloads/PongDD1-main/PONG SEMIFINAL/PONG SEMIFINAL.xpr}
+update_compile_order -fileset sources_1

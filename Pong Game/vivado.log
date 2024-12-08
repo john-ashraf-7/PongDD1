@@ -1,0 +1,381 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sun Dec  8 05:28:04 2024
+# Process ID: 12408
+# Current directory: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7580 C:\Users\Ziadgaballah\Downloads\PONG SEMISEMIFINAL\PONG SEMIFINAL\PONG SEMIFINAL.xpr
+# Log file: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/vivado.log
+# Journal file: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL\vivado.jou
+# Running On: CSE-P07-2168-10, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 4, Host memory: 34246 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.xpr}
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:genesys2:part0:1.1 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/genesys2/H/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part digilentinc.com:sword:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/boards/board_files/sword/C.0/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:09 . Memory (MB): peak = 1569.430 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 05:28:51 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2022.1
+  **** Build date : Apr 18 2022 at 16:02:36
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2022.1.0
+  ****** Build date   : Apr 12 2022-21:12:08
+    **** Build number : 2022.1.1649790728
+      ** Copyright 2017-2024 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:22 . Memory (MB): peak = 1569.430 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183AB43B1A
+open_hw_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 3303.359 ; gain = 1733.930
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+add_files -norecurse {{C:/Users/Ziadgaballah/Desktop/New folder/clockDivider.v} {C:/Users/Ziadgaballah/Desktop/New folder/counter_x_bit.v}}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 05:47:05 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 05:47:05 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 05:51:10 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 05:51:10 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Sun Dec  8 06:02:31 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 06:05:55 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 06:05:55 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 06:07:39 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 06:07:39 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 06:08:16 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 06:08:17 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 06:10:58 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 06:10:58 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Sun Dec  8 06:25:11 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 06:26:30 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 06:26:30 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 06:32:34 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 06:32:34 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 06:34:06 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 06:34:06 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 06:39:39 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 06:39:39 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 06:44:45 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 06:44:45 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 06:48:47 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 06:48:47 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 07:00:53 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 07:00:53 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 07:04:51 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 07:04:51 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 07:18:45 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 07:18:46 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 07:20:51 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 07:20:51 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 07:22:32 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 07:22:32 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 07:23:40 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 07:23:40 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 07:24:29 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 07:24:29 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 07:29:17 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 07:29:17 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Sun Dec  8 07:33:43 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 07:34:28 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 07:34:28 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Sun Dec  8 07:41:37 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 07:42:41 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 07:42:41 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec  8 07:46:03 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/synth_1/runme.log
+[Sun Dec  8 07:46:03 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Ziadgaballah/Downloads/PONG SEMISEMIFINAL/PONG SEMIFINAL/PONG SEMIFINAL.runs/impl_1/pong_top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Dec  8 07:50:41 2024...
